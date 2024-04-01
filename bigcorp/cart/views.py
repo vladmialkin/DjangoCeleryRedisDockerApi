@@ -1,10 +1,10 @@
 from django.shortcuts import get_object_or_404, render
 from django.http import JsonResponse
-from ..shop.models import ProductProxy
+from shop.models import ProductProxy
 
 
 def cart_view(request):
-    pass
+    return render(request, 'cart/cart_view.html')
 
 
 def cart_add(request):
