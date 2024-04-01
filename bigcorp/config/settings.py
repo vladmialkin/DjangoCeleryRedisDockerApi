@@ -65,7 +65,8 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
 
                 # Кастомный context_processor
-                'shop.context_processors.categories'
+                'shop.context_processors.categories',
+                'cart.context_processors.cart',
             ],
         },
     },
